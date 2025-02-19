@@ -1,0 +1,73 @@
+.post {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
+.post img {
+    max-width: 95%;
+    border-radius: 8px;
+    margin: 1%;
+    border: 2px solid #ccc;
+    padding: 1%;
+}
+.post h3 {
+    margin-top: 10px;
+}
+.post p {
+    color: #555;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.post button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: 0 4px 0 auto;
+    text-decoration: underline;
+}
+.post button:hover {
+    color: #45a049;
+    text-decoration: none;
+}
+.icons {
+    margin-top: 30px;
+    font-size: 1.1em;
+    text-align: start;
+    display: flex;
+}
+.icons i {
+    margin-right: 15px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.icons i:last-child{
+    margin-right: 0px;
+    margin-left: auto;
+}
+.icons i:hover {
+    color: #4CAF49;
+}
+button.load{
+    background-color: #4CAF49;
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.load:hover{
+    background-color: #3e8b41;
+}

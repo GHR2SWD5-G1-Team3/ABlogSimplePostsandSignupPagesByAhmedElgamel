@@ -1,0 +1,42 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+ h2{
+    font-size: 2rem;
+    text-align: center;
+}
+input:not(input[type="submit"]){
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    transition: background-color 0.3s;
+    font-size: 20px
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="checkbox"]{
+    width: auto !important;
+}
+form p {
+    text-align: center;
+}
